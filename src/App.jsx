@@ -11,8 +11,8 @@ const Index = () => {
     <div className="min-h-screen relative overflow-hidden">
       <GridPattern className="fixed inset-0 z-0 w-full h-full" />
       
-      <main className="relative z-10 px-4 py-8 md:py-12 lg:py-16">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
+      <main className="relative z-10 px-4 py-8 md:py-12 lg:py-16 flex flex-col lg:flex-row items-center justify-between">
+        <div className="max-w-7xl mx-auto flex flex-col  lg:flex-row lg:items-center lg:justify-between gap-4">
           {/* Image Slider Section */}
           <div className="w-full lg:w-1/2">
             <ImageSlider className="mx-auto" />

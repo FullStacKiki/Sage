@@ -23,8 +23,8 @@ const ImageSlider = () => {
   }, []);
 
   return (
-    <div className="lg:flex lg:justify-start  lg:items-center lg:min-h-screen lg:p-4 flex justify-center mx-auto p-auto">
-      <div className="relative w-[250px] h-[520px] sm:w-60 sm:h-96 md:w-88 md:h-[800px] lg:w-[420px] lg:h-[880px] bg-transparent">
+    <div className="lg:flex-col lg:justify-start  lg:items-center lg:min-h-screen lg:p-4 flex justify-center mx-auto p-auto">
+      <div className="relative w-[250px] h-[520px] sm:w-60 sm:h-126 md:w-88 md:h-[800px] lg:w-[420px] lg:h-[880px] bg-transparent">
         {images.map((img, index) => (
           <img
             key={index}
